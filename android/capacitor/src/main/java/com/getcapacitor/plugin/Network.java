@@ -75,8 +75,8 @@ public class Network extends Plugin {
    */
   @Override
   protected void handleOnResume() {
-    IntentFilter filter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
-    getActivity().registerReceiver(receiver, filter);
+    /*IntentFilter filter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+    getActivity().registerReceiver(receiver, filter);*/
   }
 
   /**
